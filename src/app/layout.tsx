@@ -124,7 +124,7 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
       </head>
-      <body className={`${inter.className} antialiased`}>
+      <body className={`${inter.className} antialiased overflow-x-hidden`}>
         {/* Skip to main content for accessibility */}
         <a href="#main-content" className="sr-only focus:not-sr-only">
           Skip to main content
@@ -132,7 +132,7 @@ export default function RootLayout({
         
         <Header />
         
-        <main id="main-content">
+        <main id="main-content" className="overflow-x-hidden">
           {children}
         </main>
         
@@ -147,16 +147,16 @@ export default function RootLayout({
               '@context': 'https://schema.org',
               '@type': 'Organization',
               name: 'KiranaPro',
-              url: 'https://kiranapro.example.com',
-              logo: 'https://kiranapro.example.com/images/logo.png',
+              url: 'https://Minutos.example.com',
+              logo: 'https://Minutos.example.com/images/logo.png',
               sameAs: [
-                'https://www.facebook.com/KiranaProApp',
-                'https://www.instagram.com/KiranaProApp',
-                'https://twitter.com/KiranaProApp',
+                'https://www.facebook.com/Minutos',
+                'https://www.instagram.com/Minutos',
+                'https://twitter.com/Minutos',
               ],
               contactPoint: {
                 '@type': 'ContactPoint',
-                telephone: '+91-1234567890',
+                telephone: '+91-123456***',
                 contactType: 'customer service',
                 availableLanguage: ['English', 'Hindi'],
               },
